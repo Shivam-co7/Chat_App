@@ -1,0 +1,84 @@
+/* css file for romm.ejs file */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #efd6ea;
+}
+
+h1{
+    text-align: center;
+    margin-top: 15px;
+}
+
+input{
+    width: 100%;
+    height: 40px;
+    text-indent: 10px;
+}
+
+button{
+    width: 100%;
+    height: 50px;
+    background-color: #1a2eda;
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+    border: none;
+}
+
+.fields{
+    width: 100%;
+}
+
+.window{
+    margin: auto;
+    margin-top: 20px;
+    width: 700px;
+    height: 500px;
+    border: 2px solid #c2c6b6;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+.chat-message{
+    display: block;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+
+#output, #feedback{
+    margin-left: 10px;
+}
+
+.users{
+    margin-left: 40px;
+    margin-top: 50px;
+}
+
+.users p{
+    color: #fff;
+    background-color: #6e6767;
+}
+
+.online{
+    height: 100vh;
+    width: 300px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background-color: #6e6767;
+}
+
+.online .users_online{
+    background-color: #6e6767;
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
